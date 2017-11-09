@@ -1,0 +1,134 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Name {
+	font-size: 1.5em;
+}
+
+.Title {
+	font-size: 1.0em;
+}
+
+.Tiles {
+	display: inline-block;
+	float: none;
+  /*vertical-align: top;*/
+	padding: 10px;
+	z-index: -1;
+}
+
+.Info {
+	margin: 0 auto;
+	width: 450px;
+	/*height: auto;*/
+	padding: 10px;
+	/*background-color: #222;*/
+}
+
+.TileList {
+	display: table;
+	margin: 0 auto;
+	/*width: 920px;*/
+	list-style-type: none;
+	text-align: center;
+	/*z-index: 1;*/
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Head {
+	text-algin: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+	padding: 0px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+	/*padding: 40px;*/
+  background-color: #4286f4;
+}
+
+.container:hover .overlay {
+  opacity: .9;
+}
+
+.Portfolio {
+	text-align: center;
+}
+
+.Portfolio-header {
+  background-color: #222;
+  height: 80px;
+  padding: 5px;
+  color: white;
+	text-align: left;
+	/*z-index: -1;*/
+	/*position: fixed;*/
+}
+
+.Description {
+	text-align: left;
+}
+
+.About {
+  background-color: #222;
+  /*height: 150px;*/
+  padding: 20px;
+  color: white;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.headshot {
+	border-radius: 5%;
+}
+
+.ryleyInfo {
+	background-color: #3f3f3f;
+  height: 375px;
+  padding: 5px;
+  color: white;
+	text-align: center;
+}
+
+.sticky {
+	z-index: 1;
+}
+
+.sticky {
+	z-index: 2;
+}
+
+.Project {
+	text-align: center;
+	background-color: #222;
+}
