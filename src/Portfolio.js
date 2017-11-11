@@ -219,7 +219,7 @@ class Portfolio extends Component {
 				</Sticky>
 				<div className="ryleyInfo">
 					<h1>Ryley Matos</h1>
-					<img className="headshot" src="http://ryley.io/img/medium_rmatos.jpg" />
+					<img className="headshot" src={require('./img/rmatos.jpg')} />
 					<h3>Software Engineer</h3>
 				</div>
 				<ProjectList projects={this.state.projects} />
