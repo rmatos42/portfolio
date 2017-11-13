@@ -59,7 +59,7 @@
 
 .Info {
 	margin: 0 auto;
-	width: 50%;
+	max-width: 450px;
 	/*height: auto;*/
 	padding: 10px;
 	/*background-color: #222;*/
@@ -70,13 +70,13 @@
 	height: auto;
 }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
 	.Info {
 		margin: 0 auto;
 		width: 100%;
 		padding: 10px;
 	}
-}
+}*/
 
 .TileList.back {
 	/*display: flex;
@@ -177,7 +177,7 @@
 	padding: 10px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 2) {
 	.About {
 	margin: 0 auto;
   background-color: #222;
