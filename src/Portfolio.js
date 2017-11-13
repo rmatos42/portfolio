@@ -148,7 +148,7 @@ class Portfolio extends Component {
 					description: "K.I.F.T. is a speech recognition program. K.I.F.T. uses Carnegie Mellon University's speech recognition toolkit, CMUSPHINX. Audio recordings are sent to a server from a client program where the speech is then converted to text then sent back to the client. The client then executes the appropriate command.",
 					image: require('./img/kift.png'),
 					langs: "Python, C",
-					link: 'https://github.com/rmatos42/K.I.F.T.'
+					link: 'https://github.com/andeaseme/KIFT'
 				},
 				{
 					name: 'Fract-ol',
