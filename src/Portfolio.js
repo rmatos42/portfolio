@@ -17,7 +17,7 @@ class ProjectTile extends Component {
 		return (
 			<div className="Tiles">
 				<div
-					class="container">
+					className="container">
 					<img
 						width="450"
 						height="325"
@@ -131,7 +131,7 @@ class Portfolio extends Component {
 			projects: [
 				{
 					name: 'VMWorld IoT WebVR Demo',
-					description: "This demo features a model of a bridge with various spinning coins surrounding it corresponding to sensors on a physical lego bridge. Looking at these coins displays the sensor's information. This project was displayed at VMWorld 2017 in Las Vegas.",
+					description: "This demo features a model of a bridge with various spinning coins surrounsding it corresponding to sensors on a physical lego bridge. Looking at these coins displays the sensor's information. This project was displayed at VMWorld 2017 in Las Vegas.",
 					image: require('./img/artik.png'),
 					langs: "HTML, Python, Javascript",
 					link: 'http://artik.ryley.io'
