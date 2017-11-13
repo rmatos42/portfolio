@@ -117,7 +117,7 @@ class About extends Component {
 			<div className="About">
 				<h1>About</h1>
 				<p>I am a 42 US student currently looking for a junior web development position or an internship. I have experience working in languages such as Javascript, HTML, C, C++, Python, Java, and Swift. I also have experience working in web frameworks such as React and A-Frame (WebVR). I recently finished an internship at Samsung Research America where I was a Full-Stack WebVR Engineer intern. During my time at Samsung I was in charge of creating a demo for the ARTIK team that was used to showcase their technology at the VMWorld 2017 convention in Las Vegas.</p>
-				<a href="http://ryley.io/resume.pdf" type="button" className="btn btn-primary">Resume</a>
+				<a href={require("./Resume.pdf")} type="button" className="btn btn-primary">Resume</a>
 			</div>
 		);
 	}
